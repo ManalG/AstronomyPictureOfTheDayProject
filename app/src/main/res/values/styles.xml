@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background_transparent_black</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AboutTheme" parent="Transparent">
+        <item name="android:windowBackground">@color/primary_dark</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+</resources>
