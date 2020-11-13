@@ -232,6 +232,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            findViewById(R.id.bottom_sheet).setVisibility(View.GONE);
+            getSupportActionBar().hide();
+        } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
+            findViewById(R.id.bottom_sheet).setVisibility(View.VISIBLE);
+            getSupportActionBar().show();
+        }
     }
 }

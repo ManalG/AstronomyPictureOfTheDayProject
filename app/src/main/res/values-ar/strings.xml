@@ -25,4 +25,7 @@
     <!-- Share -->
     <string name="share">مشاركة</string>
 
+    <string name="ok_label">تم</string>
+    <string name="cancel_label">إلغاء</string>
+
 </resources>

@@ -28,4 +28,8 @@
     <!-- api key -->
     <string name="api_key" translatable="false">rcETlBXb9c60ZadVhFlLa49LpifAIqQ3W4AGg0Qc</string>
 
+
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+
 </resources>

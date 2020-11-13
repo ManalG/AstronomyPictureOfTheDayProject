@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:background="#00000000"
-            android:text="OK"
+            android:text="@string/ok_label"
             android:textColor="@color/accent" />
 
         <Button
@@ -37,7 +37,7 @@
             android:layout_gravity="bottom|end"
             android:layout_marginEnd="90dp"
             android:background="#00000000"
-            android:text="Cancel"
+            android:text="@string/cancel_label"
             android:textColor="@color/accent" />
 
     </DatePicker>
