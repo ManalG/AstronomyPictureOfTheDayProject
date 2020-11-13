@@ -5,6 +5,8 @@
 
     <!-- Main Activity Title -->
     <string name="title_main_activity">Astronomy Picture</string>
+    <!-- About Activity Title -->
+    <string name="title_about_activity" translatable="false">Astronomy Picture</string>
 
     <!-- Main Menu Items -->
     <string name="action_pick_day">Pick a date</string>

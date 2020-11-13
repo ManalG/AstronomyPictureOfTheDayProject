@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.DialogFragment;
 
 import android.Manifest;
 import android.app.DownloadManager;
@@ -34,6 +35,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.barmej.apod.entity.AstronomyObject;
+import com.barmej.apod.fragment.AboutFragment;
 import com.barmej.apod.network.NetworkUtils;
 import com.barmej.apod.utils.AstronomyPictureDataParser;
 import com.ortiz.touchview.TouchImageView;
@@ -96,7 +98,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.action_share) {
             shareImage(astronomyObject.getUrl(), this);
         } else if (id == R.id.action_about) {
-            startActivity(new Intent(MainActivity.this, AboutActivity.class));
+            AboutFragment aboutFragment = new AboutFragment();
+            aboutFragment.show(getSupportFragmentManager(), "fragment_about");
         }
         return super.onOptionsItemSelected(item);
     }

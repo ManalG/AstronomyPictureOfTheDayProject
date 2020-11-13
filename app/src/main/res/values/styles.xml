@@ -18,10 +18,4 @@
         <item name="colorAccent">@color/accent</item>
     </style>
 
-    <style name="AboutTheme" parent="Transparent">
-        <item name="android:windowBackground">@color/primary_dark</item>
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-
-
 </resources>

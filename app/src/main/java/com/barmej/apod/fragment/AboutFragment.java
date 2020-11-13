@@ -30,8 +30,7 @@ public class AboutFragment extends DialogFragment implements View.OnClickListene
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.cancel_about:
-            case R.id.cancel_action:
-                getActivity().onBackPressed();
+                dismiss();
                 break;
         }
     }
